@@ -21,96 +21,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>Change _PRW to XPRW in EHC1 (disables it)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					ED0vA19TQl9QQ0kwRUhDMRQtX1BSVwBwVVBS
-					V2A=
-					</data>
-					<key>Replace</key>
-					<data>
-					ED0vA19TQl9QQ0kwRUhDMRQtWFBSVwBwVVBS
-					V2A=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _PRW to XPRW in EHC2 (disables it)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					ED0vA19TQl9QQ0kwRUhDMhQtX1BSVwBwVVBS
-					V2A=
-					</data>
-					<key>Replace</key>
-					<data>
-					ED0vA19TQl9QQ0kwRUhDMhQtWFBSVwBwVVBS
-					V2A=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _PRW to XPRW in XHC (disables it)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					ED0vA19TQl9QQ0kwWEhDXxQtX1BSVwBwVVBS
-					V2A=
-					</data>
-					<key>Replace</key>
-					<data>
-					ED0vA19TQl9QQ0kwWEhDXxQtWFBSVwBwVVBS
-					V2A=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _PRW to XPRW (disables it)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					FA9fUFJXAKRHUFJXCm0KBA==
-					</data>
-					<key>Replace</key>
-					<data>
-					FA9YUFJXAKRHUFJXCm0KBA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change EHC1 to EH01</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUhDMQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change EHC2 to EH02</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUhDMg==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUgwMg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Change GFX0 to IGPU</string>
 					<key>Disabled</key>
 					<false/>
@@ -121,48 +31,6 @@
 					<key>Replace</key>
 					<data>
 					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _OSI to XOSI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X09TSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WE9TSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _Q66 to XQ66 (disables it)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1E2Ng==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFE2Ng==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
 					</data>
 				</dict>
 			</array>
@@ -186,7 +54,6 @@
 		<key>SortedOrder</key>
 		<array>
 			<string>DSDT.aml</string>
-			<string>ssdt.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -243,7 +110,7 @@
 			<key>Inject</key>
 			<integer>12</integer>
 			<key>ResetHDA</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -303,7 +170,7 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<true/>
+		<false/>
 		<key>AppleRTC</key>
 		<true/>
 		<key>KernelPm</key>
@@ -340,17 +207,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>04/16/2019</string>
+		<string>05/27/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP91.88Z.F000.B00.1904162041</string>
+		<string>MBP112.88Z.F000.B00.1905271046</string>
 		<key>Board-ID</key>
-		<string>Mac-6F01561E16C75D06</string>
+		<string>Mac-3CBD00234E554E41</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C024373014NF1YJ1M</string>
+		<string>C024151004NFJQWJA</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -362,11 +229,11 @@
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>EfiVersion</key>
-		<string>226.0.0.0.0</string>
+		<string>155.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xC00DE137</string>
+		<string>0xE80FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -376,13 +243,13 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0xFFFF</string>
+		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookPro9,2</string>
+		<string>MacBookPro11,2</string>
 		<key>SerialNumber</key>
-		<string>C02ND6YHDTY3</string>
+		<string>C02MK0KHG86R</string>
 		<key>SmUUID</key>
-		<string>3BFFD8F3-88A7-4783-BA42-E44674A9537F</string>
+		<string>931E868C-630A-42BE-90B7-8019F179FEBD</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
