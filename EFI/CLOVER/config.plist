@@ -54,6 +54,7 @@
 		<key>SortedOrder</key>
 		<array>
 			<string>DSDT.aml</string>
+			<string>SSDT-EC.aml</string>
 			<string>SSDT.aml</string>
 		</array>
 	</dict>
