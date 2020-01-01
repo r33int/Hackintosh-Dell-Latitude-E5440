@@ -2,7 +2,7 @@
 #### I am sharing my hackintosh clover configuration files for my Dell Latitude E5440. Feel free to use them and contribute! :)
 
 ![My Dell Latitude E5440 running macOS Mojave](https://i.imgur.com/QqpBcfe.jpg)
-My Dell Latitude E5440 running macOS Mojave
+My Dell Latitude E5440 running macOS Mojave (boots Catalina too!)
 
 ### My laptop's specs:
 * CPU: Intel Core i5 4210U
